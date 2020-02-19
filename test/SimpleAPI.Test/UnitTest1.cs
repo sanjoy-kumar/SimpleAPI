@@ -11,7 +11,7 @@ namespace SimpleAPI.Test
         public void GetReturnsCorrectNumber()
         {
         var returnValue = controller.Get(1);
-        Assert.Equal("Sanjoy Kumar Das", returnValue.Value);
+        Assert.Equal("Max Power", returnValue.Value);
         }
         [Fact]
         public void Test1()
